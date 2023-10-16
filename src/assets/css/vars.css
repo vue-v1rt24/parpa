@@ -1,0 +1,7 @@
+@import '../fonts/fonts.css';
+
+:root {
+  --font: 'parpa-roboto', sans-serif;
+  --text-color: #333333;
+  --link-active: #ba967d;
+}

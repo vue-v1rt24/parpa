@@ -1,0 +1,29 @@
+@import './reset.css';
+@import './vars.css';
+
+body {
+  min-width: 320px;
+  font-family: var(--font);
+  font-size: 14px;
+  color: var(--text-color);
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  box-sizing: content-box;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.truncate-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
